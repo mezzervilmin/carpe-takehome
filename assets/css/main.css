@@ -43,6 +43,40 @@ body {
   );
 }
 
+.progress-bar {
+  background-color: #eb7a34;
+  height: 0.75rem;
+  margin: 4rem auto;
+  width: 80%;
+  position: relative;
+  display: flex;
+}
+
+.dots {
+  position: absolute;
+  z-index: 5;
+  display: flex;
+  left: 0;
+  top: -225%;
+  width: 90%;
+  justify-content: space-between;
+}
+
+.dot {
+  height: 4rem;
+  width: 4rem;
+  background-color: white;
+  color: #eb7a34;
+  border-radius: 50%;
+  border: 2px solid #eb7a34;
+  font-size: 3.5rem;
+  text-align: center;
+  &.filled {
+    background-color: #eb7a34;
+    color: white;
+  }
+}
+
 .hide-question {
   display: none;
 }

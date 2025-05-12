@@ -8,6 +8,13 @@ const onAdvance = () => {
   if (index > 1) {
     document.getElementById("back-btn").classList.remove("hide-question");
   }
+
+  const dots = document.getElementsByClassName("dot");
+  Array.from(dots)
+    .slice(0, index + 1)
+    .forEach((element) => {
+      element.classList.add("filled");
+    });
 };
 
 const onBack = () => {
@@ -18,6 +25,12 @@ const onBack = () => {
   if (index === 1) {
     document.getElementById("back-btn").classList.add("hide-question");
   }
+  const dots = document.getElementsByClassName("dot");
+  Array.from(dots)
+    .slice(index + 1)
+    .forEach((element) => {
+      element.classList.remove("filled");
+    });
 };
 
 const fwdButton = document.getElementById("advance-btn");
