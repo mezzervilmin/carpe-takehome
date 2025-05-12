@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-banner">1 Minute Sweatcare Quiz</div>
+      <img src="assets/img/logo.jpeg" class="logo" alt="Carpe logo" />
+
+      <div class="content">
+        <!-- first step -->
+        <div id="1">
+          <div class="title">
+            Which deodorant or antiperspirant brand do you currently use
+          </div>
+          <div class="subtext">(select your favorite)</div>
+          <div class="button-grid">
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+          </div>
+        </div>
+
+        <!-- second step -->
+        <div id="2" class="hide-question">
+          <div class="title">
+            Which deodorant or antiperspirant brand do you currently use
+          </div>
+          <div class="selects">
+            <div class="select-item">
+              <input
+                type="radio"
+                id="invisible-solid"
+                name="brand-choice"
+                value="invisible-solid"
+                checked
+              />
+              <div class="select-text">
+                <div class="select-heading">Invisible Solid Stick</div>
+                <div class="select-subheading">
+                  Outlast, Flash, Clinical Strength
+                </div>
+              </div>
+            </div>
+            <div class="select-item">
+              <input
+                type="radio"
+                id="invisible-cream"
+                name="brand-choice"
+                value="invisible-cream"
+              />
+              <div class="select-text">
+                <div class="select-heading">Invisible Solid Stick</div>
+                <div class="select-subheading">
+                  Outlast, Flash, Clinical Strength
+                </div>
+              </div>
+            </div>
+            <div class="select-item">
+              <input
+                type="radio"
+                id="dry-spray"
+                name="brand-choice"
+                value="dry-spray"
+              />
+              <div class="select-text">
+                <div class="select-heading">Invisible Solid Stick</div>
+                <div class="select-subheading">
+                  Outlast, Flash, Clinical Strength
+                </div>
+              </div>
+            </div>
+            <div class="select-item">
+              <input
+                type="radio"
+                id="clear-gel"
+                name="brand-choice"
+                value="clear-gel"
+              />
+              <div class="select-text">
+                <div class="select-heading">Invisible Solid Stick</div>
+                <div class="select-subheading">
+                  Outlast, Flash, Clinical Strength
+                </div>
+              </div>
+            </div>
+            <div class="select-item">
+              <input
+                type="radio"
+                id="clear-solid"
+                name="brand-choice"
+                value="clear-solid"
+              />
+              <div class="select-text">
+                <div class="select-heading">Invisible Solid Stick</div>
+                <div class="select-subheading">
+                  Outlast, Flash, Clinical Strength
+                </div>
+              </div>
+            </div>
+            <div class="select-item">
+              <input
+                type="radio"
+                id="soft-solid"
+                name="brand-choice"
+                value="soft-solid"
+              />
+              <div class="select-text">
+                <div class="select-heading">Invisible Solid Stick</div>
+                <div class="select-subheading">
+                  Outlast, Flash, Clinical Strength
+                </div>
+              </div>
+            </div>
+            <div class="select-item">
+              <input
+                type="radio"
+                id="original-solid"
+                name="brand-choice"
+                value="original-solid"
+              />
+              <div class="select-text">
+                <div class="select-heading">Invisible Solid Stick</div>
+                <div class="select-subheading">
+                  Outlast, Flash, Clinical Strength
+                </div>
+              </div>
+            </div>
+            <div class="select-item">
+              <input
+                type="radio"
+                id="roll-on"
+                name="brand-choice"
+                value="roll-on"
+              />
+              <div class="select-text">
+                <div class="select-heading">Invisible Solid Stick</div>
+                <div class="select-subheading">
+                  Outlast, Flash, Clinical Strength
+                </div>
+              </div>
+            </div>
+            <div class="select-item">
+              <input
+                type="radio"
+                id="other"
+                name="brand-choice"
+                value="other"
+              />
+              <div class="select-text">
+                <div class="select-heading">Invisible Solid Stick</div>
+                <div class="select-subheading">
+                  Outlast, Flash, Clinical Strength
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- third step -->
+        <div id="3" class="hide-question">
+          <div class="subtext" style="margin-bottom: 0">
+            Have you ever wondered...
+          </div>
+          <div class="title" style="margin-top: 0">
+            What are you REALLY putting on your body?
+          </div>
+          <img
+            src="./assets/img/illustration.png"
+            class="illustration"
+            alt="Explaining why deodorants are bad"
+          />
+          <div class="subblock-text">
+            <strong> Don't worry! We have a solution.</strong><br />
+            See if its right for you
+          </div>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button id="back-btn" class="back-btn hide-question">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+            width="72"
+            fill="white"
+          >
+            <path
+              d="M125.7 160l50.3 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L48 224c-17.7 0-32-14.3-32-32L16 64c0-17.7 14.3-32 32-32s32 14.3 32 32l0 51.2L97.6 97.6c87.5-87.5 229.3-87.5 316.8 0s87.5 229.3 0 316.8s-229.3 87.5-316.8 0c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0c62.5 62.5 163.8 62.5 226.3 0s62.5-163.8 0-226.3s-163.8-62.5-226.3 0L125.7 160z"
+            />
+          </svg>
+        </button>
+        <button id="advance-btn" class="advance-btn">Continue</button>
+      </div>
+    </div>
+
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
